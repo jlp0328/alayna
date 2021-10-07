@@ -1,0 +1,58 @@
+.card_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 75vh;
+}
+.player_card {
+  transition: all 0.5s ease;
+}
+.player_card:hover {
+  transform: translate3D(0, -1px, 0) scale(1.03); /* move up slightly and zoom in */
+  transition: all 0.4s ease; /* zoom in */
+  cursor: pointer;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 19rem;
+  height: 22rem;
+}
+.card:hover {
+  box-shadow: 8px 28px 50px rgba(39, 44, 49, 0.07),
+    1px 6px 12px rgba(39, 44, 49, 0.04);
+}
+.playerImage {
+  height: 200px;
+  width: 200px;
+}
+.teamImage {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: lightgrey 1px solid;
+  background-color: white;
+}
+.top {
+  text-align: center;
+}
+.player_info {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #295a8e;
+  padding: 2px 5px;
+}
+h4 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  color: #295a8e;
+}
+a {
+  text-decoration: none;
+}
